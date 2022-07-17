@@ -2,7 +2,136 @@
 layout: archive
 ---
 
+<style>
+article[role="publication"] {
+  display: flex;
+}
+article[role="publication"] div[role="left"] {
+    flex: 30;
+    align-self: center;
+}
+article[role="publication"] > div[role="left"] > img {
+    width: 100%;
+    padding: 0 .5em;
+    margin: auto;
+}
+article[role="publication"] > div[role="right"] {
+    flex: 70;
+    padding: 0 0 0 1em;
+    align-self: center;
+}
+article[role="publication"] header {
+    padding-bottom: 0;
+}
+p[role="links"] {
+    padding-top: 0;
+}
+p[role="links"] > a {
+    padding-right: 0.5em;
+}
+p[role="links"] > b {
+    padding-right: 0.5em;
+}
+p[role="others"] {
+    margin-top: 0.5em;
+    font-size: .8em;
+    text-align: left;
+}
+
+@media only screen and (max-width: 700px) {
+    article[role="publication"] {
+        display: block;
+    }
+
+    article[role="publication"] > div[role="left"] > img {
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+
+</style>
+
 {{ content }}
+
+<h3 class="archive__subtitle">About Me</h3>
+<p style="font-size: 16px;">I am an undergraduate student in <b>School of Computing</b> at Korea Advanced Institute of Science and Technology (KAIST).
+  I am currently working as an undergraduate research intern at <b>3D AI Lab</b>, led by <a href="https://mhsung.github.io/">Prof. Minhyuk Sung</a>. </p>
+<p style="font-size: 16px;">My research interests are understanding and reconstructing the 3D structure 
+of indoor scenes, and in turn generating novel views. Furthermore, I am interested in diverse tasks related to understanding the underlying 3D geometry 
+from images, including Neural Radiance Fields (NeRF) and 3D-aware generative models. </p>
+
+<h3 class="archive__subtitle">Projects</h3>
+<article style="font-size: 14px;" role="publication">
+  <div role="left">
+      <img src="assets/images/cmaac-v0.png">
+  </div>
+  <div role="right">
+      <header><i>C-MAAC: Cluster-based Multi-Actor Attention Critic for Reinforcement Learning</i></header>
+      <p>
+          <i class="fa fa-book"></i>
+          <span class="conference">Introduction to Artificial Intelligence, KAIST CS470, Spring 2022</span>
+      </p>
+      <p role="links">
+          <a href="https://github.com/phillipinseoul/Cluster-MAAC/blob/master/Cluster_based_MAAC_Final_Report.pdf" target="_blank">
+              [Paper]
+          </a>
+          <a href="https://github.com/phillipinseoul/Cluster-MAAC" target="_blank">
+              [Github]
+          </a>
+          <a href="https://youtu.be/KY6Zewa-yrA" target="_blank">
+              [Video]
+          </a>
+      </p>
+  </div>
+</article>
+<hr />
+<article style="font-size: 14px;" role="publication">
+  <div role="left">
+      <img src="assets/images/unsup3d.png">
+  </div>
+  <div role="right">
+      <header><i>Reproducing Unsup3D from scratch</i></header>
+      <p>
+          <i class="fa fa-book"></i>
+          <span class="conference">Machine Learning for 3D Data, KAIST CS492, Spring 2022</span>
+      </p>
+      <p role="links">
+          <a href="https://github.com/phillipinseoul/rep-unsup3d/blob/main/report.pdf" target="_blank">
+              [Paper]
+          </a>
+          <a href="https://github.com/phillipinseoul/rep-unsup3d/blob/main/supplementary.pdf" target="_blank">
+            [Supplementary]
+        </a>
+          <a href="https://github.com/phillipinseoul/rep-unsup3d" target="_blank">
+              [Github]
+          </a>
+      </p>
+  </div>
+</article>
+<hr />
+<article style="font-size: 14px;" role="publication">
+  <div role="left">
+      <img src="assets/images/sensei.png">
+  </div>
+  <div role="right">
+      <header><i>On Improving the Robustness of Image Classification Model Using Fuzz-Based Data Augmentation</i></header>
+      <p>
+          <i class="fa fa-book"></i>
+          <span class="conference">AI Based Software Engineering, KAIST CS454, Fall 2021</span>
+      </p>
+      <p role="links">
+          <a href="https://github.com/phillipinseoul/GA-SENSEI/blob/main/CS454_Final_Project.pdf" target="_blank">
+              [Paper]
+          </a>
+          <a href="https://github.com/phillipinseoul/GA-SENSEI" target="_blank">
+              [Github]
+          </a>
+      </p>
+  </div>
+</article>
+
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
