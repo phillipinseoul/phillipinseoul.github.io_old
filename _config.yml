@@ -104,7 +104,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yuseung Lee"
+  name             : "Yuseung (Phillip) Lee"
   avatar           : "/assets/images/my-face.jpeg"
   bio              : ""
   location         : "Daejeon, Republic of Korea"
@@ -118,7 +118,7 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/yuseungleee"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
