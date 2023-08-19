@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Yuseung (Phillip) Lee"
   avatar           : "/assets/images/my-face.jpeg"
-  bio              : ""
+  bio              : "M.S. Student @ KAIST AI"
   location         : "Daejeon, Republic of Korea"
   email            : # "phillip0701@kaist.ac.kr"
   links:
