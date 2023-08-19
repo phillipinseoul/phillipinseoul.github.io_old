@@ -20,7 +20,7 @@ title                    : "Yuseung Lee"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Yuseung Lee"
-description              : "Offical Website."
+description              : "Offical Website of Yuseung Lee."
 url                      : "https://phillipinseoul.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,7 +104,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yuseung (Phillip) Lee"
+  name             : 'Yuseung "Phillip" Lee'
   avatar           : "/assets/images/my-face.jpeg"
   bio              : "M.S. Student @ KAIST AI"
   location         : "Daejeon, Republic of Korea"
