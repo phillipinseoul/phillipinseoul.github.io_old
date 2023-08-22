@@ -122,17 +122,18 @@
    ========================================================================== */
 
 .author__avatar {
-  display: table-cell;
+  // display: table-cell;
+  display: block;
   vertical-align: top;
-  width: 36px;
-  height: 36px;
+  // width: 36px;
+  // height: 36px;
+  width: auto;
+  height: auto;
 
   @include breakpoint($large) {
     display: block;
-    // width: auto;
-    // height: auto;
-    width: 24px;
-    height: 24px;
+    width: auto;
+    height: auto;
   }
 
   img {
